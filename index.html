@@ -7,7 +7,7 @@
 	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>	
     
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  	<script src="jquery.js"></script>
   	<script type="text/javascript" src="jquery.onepage-scroll.js"></script>
   	<link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
  	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.lightbox-0.5.css">
@@ -121,7 +121,7 @@ else if ((navigator.userAgent.match(/iPad/i)) || (navigator.userAgent.match(/iPo
     
     
     .main section.page1 {
-      background:rgb(255, 255, 255);
+      background: url(xxxtilted-phone.png) no-repeat 156px -150px ;
     }
     .main section.page1 h1 {
       text-align: left;
@@ -169,7 +169,7 @@ else if ((navigator.userAgent.match(/iPad/i)) || (navigator.userAgent.match(/iPo
     }
   
     .main section.page3 {
-      background: url(xxxtilted-phone.png) no-repeat 156px -150px ;
+	  background:rgb(255, 255, 255);
     }
    
     .main section.page3 h1 {
@@ -292,15 +292,17 @@ p.thicker {font-weight:900;}
 
 
 
+<script type="text/javascript">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-46670214-2']);
+  _gaq.push(['_trackPageview']);
 
-  ga('create', 'UA-50209879-1', 'tmr5555.github.io');
-  ga('send', 'pageview');
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
 </script>
 
@@ -356,45 +358,32 @@ p.thicker {font-weight:900;}
 	    
       <section class="page1">
         <div class="page_container">
-           <br />	
-           <br />
-          
-
+         
 <div id="container"> 
-    <div class="wrapper">
+    <div class="wrapper" >
     
     
-         <table align="center" cellspacing="20px">
-         
-<tr>
-  <td><h1><div class="divlogo" ><div style="margin-top:0px;height:85px;margin-Left:42px"><img src="htxxtp://behance.vo.llnwd.net/profiles4/106034/projects/8810085/de6a2e9f8544b5fe109d96e60c297d9a.png" ></h1>
-          <h2>Doğal Zeytinyağı Ürünleri</h2>
-           </td>
-  <td>   
+ <img src="http://i1328.photobucket.com/albums/w532/timurpinar/Idapur/idapur-200-px_zpsd2b94c7e.png?t=1398774986" alt="some_text">
+    
+    
+    
+  <div>
+    <script src="jquery.backstretch.js"></script>
+	<script>
+        $.backstretch([
+          "http://i1328.photobucket.com/albums/w532/timurpinar/Idapur/zeytin-close_zps8808cd4d.jpg",
+          "http://i1328.photobucket.com/albums/w532/timurpinar/Idapur/10046253256_a7c1874951_b_zps86baf8cf.jpg"
+          
+        ], {
+            fade: 750,
+            duration: 4000
+        });
+    </script>
+  </div>
   
-<script type="text/javascript" src="js/infinite-rotator.js"></script>
-
-
-<div id="rotating-item-wrapper">
- <img class="rotating-item" src="http://justifiedbythescriptures.files.wordpress.com/2010/03/olives_and_olive_branch.jpg" alt="shoe heater" width="600" height="600"  />
- <img class="rotating-item" src="http://rizkymygift.files.wordpress.com/2010/03/olive-oil-bottles.jpg" alt="Chronograph TJP" width="600" height="600"  />
- 
- </div>
-
   
   
-  
-  </td>
-</tr>
-</table>
-         
-         
-       
-    </div>
-</div>
-
-
-         
+      
          
       </section>
 	    
@@ -525,9 +514,7 @@ $(function(){
       </section>
       
        <section class="page4">
-       
-
-        <div class="page_container">
+       <div class="page_container">
      
      <!--
      
