@@ -150,7 +150,6 @@ h6 {
       font-size: 21px;
     }
     	 .main section.page4 {
-	  background:#FF1;
 
     }
     .main section.page4 h1 {
@@ -303,20 +302,12 @@ iframe {
 }
 
 .map-frame {
-    width: 100%;
+    width: 50%;
     height: 100%;
     position: relative;
 }
 
-.map-content {
-    z-index: 10;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 390px;
-    background-color: black;
-    color: #FFF;
-}
+
 
 
 .magazine
@@ -333,7 +324,7 @@ column-gap:20px;
 -webkit-column-rule:4px outset #78BF36; /* Safari and Chrome */
 column-rule:6px outset #78BF36;
  padding: 20px;
-    margin: 50px;
+    margin: 5px;
 }
 
 
@@ -632,6 +623,17 @@ div.link-back-holder {
 }
 div.link-back-holder a.link-back {
   margin-top: -42px;  
+}
+
+
+
+
+
+
+#map{
+    width:800px;
+    height:600px;
+	z-index:10;
 }
 
 
