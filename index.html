@@ -13,10 +13,38 @@
  	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.lightbox-0.5.css">
  	<script type="text/javascript" charset="utf-8" src="js/jquery.lightbox-0.5.min.js"></script>
  		
-
+        
+    <script type="text/javascript">
  
- 
+  var ua = navigator.userAgent;
 
+var checker = {
+
+iOS: ua.match(/(iPhone|iPod|iPad)/) };
+
+if (checker.iOS) { window.location = "http://theidea.pancakeapps.com/";
+
+};
+
+</script>
+
+
+
+  
+  <script type="text/javascript">
+ <!--
+  if (screen.width <= 700) {
+  window.location = "http://theidea.pancakeapps.com/";
+  }
+  else if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("http://theidea.pancakeapps.com/");
+}
+else if ((navigator.userAgent.match(/iPad/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("http://theidea.pancakeapps.com/");
+}
+ //-->
+</script>
+  
  
   <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -162,10 +190,8 @@ p.thicker {font-weight:900;}
       </section>
 	    <section class="page2">
                   <h2>Hakkımızda</h2>
-
-	      <div class="page_container">
-       
-<div class="magazine" align="left">
+                  
+                  <div class="magazine" align="left">
 <font color="white" >
 
 Dünyanın en kaliteli ürün veren zeytin bölgelerinden birinde, Kaz Dağları eteklerinde yer alan Adatepe Köyü, Karaağaç Bayırında, Edremit Körfezi’ne bakan % 20 eğimli yamaçlardan,hasadı yapılmış İdapür Zeytinyağı’nı seçmiş bulunuyorsunuz. 
@@ -190,6 +216,12 @@ Afiyet Olsun...</font>
  <h2>S.Doğan Özyörük</h2>
 <div>
      </div>
+     
+     
+
+	      <div class="page_container">
+       
+
 </div> 
 
 
