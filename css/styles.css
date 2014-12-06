@@ -191,7 +191,7 @@ h6 {
 
 
  .main section.page5 {
-      background: #000000 url(http://i1328.photobucket.com/albums/w532/timurpinar/Idapur/urunler/van-g-olive-darker_zpsd3e10e59.jpg) no-repeat center;
+      background: #000000 url(http://i1328.photobucket.com/albums/w532/timurpinar/Idapur/urunler/van-g-olive-white_zpsbc6996cb.jpg) no-repeat center;
 	       opacity: 1;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -213,6 +213,7 @@ h6 {
       overflow: hidden;
     }
     .main section.page5 h1 {
+	  color: rgba(0,0,0,1);
       text-align: center;
       padding: 0;
       margin-bottom: 15px;
@@ -221,7 +222,7 @@ h6 {
       color: white;
     }
     .main section.page5 h2 {
-      color: rgba(255,255,255,0.85);
+      color: rgba(0,0,0,1);
       text-align: center;
       line-height: 160%;
       font-weight: 100;
