@@ -4,11 +4,12 @@
 .carousel-container {
 
   position:relative;
-  width:960px;
+  width:760px;
+  
 }
 #carousel {
   height:400px;
-  width:980px;
+  width:760px;
   background-color:;
   position:relative;
   margin-bottom:0.5em;
@@ -23,12 +24,11 @@
   position:absolute;
   top:-1000px;
   left:-1000px;
-  border:0px solid #fff;
   cursor:pointer;
 }
 .carousel-feature .carousel-caption {
   position:absolute;
-  bottom:0;
+  bottom:50px;
   width:100%;
   background-color:#000;
 }
@@ -83,3 +83,6 @@
   right:20px;
   cursor:pointer;
 }
+
+
+
